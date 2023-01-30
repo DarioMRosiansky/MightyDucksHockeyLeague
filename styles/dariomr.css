@@ -44,27 +44,30 @@ section>h2 {
 nav {
     display:inline;
     position:absolute;
-    
+    transform: translate( 2px, 10px);
 }
 
 nav>a {
     box-sizing: border-box;
     font-size: 20px;
     font-weight: bold;
-    display: inline-block;
     margin: 10px;
     border: 1px solid #000;
     color: white;
     background-color: #ca20b3;
     height: 2em;
     width: 5em;
-    padding: 5px, 15px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
     
+    
 }
 
-
+.about{
+    text-align: left;
+    size: 1px;
+}
 
 
 
