@@ -41,9 +41,9 @@ body{
 
 
 .logo{
-    width: 150px;
-    height: 150px;
-    transform: translate(100,100);
+    width: 350px;
+    height: 250px;
+    transform: translate( 800px, -350px);
 }
 
 
@@ -59,25 +59,30 @@ section h2{
 
 
 nav a {
-    font-size: 20px;
+    size: 40px;
     margin: 2px;
     text-decoration: none;
     border: 2px solid white;
     color: white;
-    background-color: black;
-    height: 2em;
-    width: 5em;
+    height: 50px;
+    width: 20em;
     padding: 5px;
     border-radius: 10px;
     text-align: center;
     box-sizing: border-box;
-    font-size: medium;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color: rgb(255, 0, 157);
+    border: 5px solid rgb(126, 16, 25);
 }
 
 nav{
     position: absolute;
-    top: 1vh;
-    right: 1vw;
+    top: 4vh;
+    right: 4vw;
+    background: transparent;
 }
 
 .container{
@@ -92,13 +97,19 @@ article{
 }
 
 h1{
-    color: rgb(66, 9, 21);
-    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(213, 226, 23);
+    font-size: 90px;
+    text-shadow: -5px 0px  #558ABB;
+    
 }
 
 article h2{
     border: none;
     text-align: start;
+    padding: 5px;
+    height: 2em;
+    
 }
 
 article a{
